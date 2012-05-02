@@ -10,4 +10,6 @@
 
 @implementation LSICallbackState
 
+@synthesize files = _files;
+
 @end

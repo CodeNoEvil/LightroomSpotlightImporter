@@ -10,4 +10,6 @@
 
 @interface LSICallbackState : NSObject
 
+@property (copy) NSMutableArray *files;
+
 @end
