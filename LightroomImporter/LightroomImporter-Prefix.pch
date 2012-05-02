@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'LightroomImporter' target in the 'LightroomImporter' project
+//
+
+#ifdef __OBJC__
+#endif
