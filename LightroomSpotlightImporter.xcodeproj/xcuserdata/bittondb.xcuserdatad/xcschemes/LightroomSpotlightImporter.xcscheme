@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7F06E051550B48A00365CB5"
-               BuildableName = "LightroomImporter.mdimporter"
+               BuildableName = "LightroomSpotlightImporter.mdimporter"
                BlueprintName = "LightroomSpotlightImporter"
                ReferencedContainer = "container:LightroomSpotlightImporter.xcodeproj">
             </BuildableReference>
@@ -30,14 +30,40 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <PathRunnable
+         FilePath = "/usr/bin/mdimport">
+      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F7F06E051550B48A00365CB5"
+            BuildableName = "LightroomSpotlightImporter.mdimporter"
+            BlueprintName = "LightroomSpotlightImporter"
+            ReferencedContainer = "container:LightroomSpotlightImporter.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-d2"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-g $(BUILT_PRODUCTS_DIR)/LightroomSpotlightImporter.mdimporter"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "&quot;/Users/bittondb/Pictures/Sunday Morning 2/Sunday Morning 2.lrcat&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

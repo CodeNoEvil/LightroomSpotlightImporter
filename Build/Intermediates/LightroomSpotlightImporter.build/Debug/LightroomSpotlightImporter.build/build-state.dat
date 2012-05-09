@@ -1,0 +1,395 @@
+TLightroomSpotlightImporter
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist
+cProcessPCH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter normal x86_64
+cCopyStringsFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings LightroomSpotlightImporter/en.lproj/InfoPlist.strings
+cCpResource LightroomSpotlightImporter/schema.xml Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml
+cCopyStringsFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.strings LightroomSpotlightImporter/schema.strings
+cPBXCp ../../../Shared/bittondb/InstalledProducts/OmniBase.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework
+cPBXCp ../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework
+cPBXCp ../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework
+cPhaseScriptExecution "Run Script" /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh
+cTouch /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter
+cPBXCp Build/Products/Debug/LightroomSpotlightImporter.mdimporter /Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F6FD48300000000000000EE
+t1332728963
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004F5816D7000000000003D5DC
+t1331173079
+s251356
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F5816D70000000000078034
+t1331173079
+s491572
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004F5816D70000000000007B40
+t1331173079
+s31552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F5816D800000000000ADFFC
+t1331173080
+s712700
+
+N/Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter
+t1336012483
+s102
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniBase.framework
+c000000004FA0AFF40000000000000110
+t1335930868
+s272
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniBase.framework/OmniBase
+c000000004FA0AFF4000000000000A200
+t1335930868
+s41472
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework
+c000000004FA07AE400000000000000CC
+t1335917284
+s204
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework/OmniFoundation
+c000000004FA07AE500000000001276C0
+t1335917285
+s1210048
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework
+c000000004FA1B2FE00000000000000EE
+t1335997182
+s238
+
+N/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework/OmniSQLite
+c000000004FA1B2FE0000000000006F40
+t1335997182
+s28480
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LightroomSpotlightImporter.LinkFileList
+c000000004FA3295200000000000002C1
+t1336093010
+s705
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh
+c000000004FA3295200000000000004CC
+t1336093010
+s1228
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.strings
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml
+t2
+s0
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m
+c000000004FA1E7350000000000000C17
+t1336010549
+s3095
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m
+c000000004FA0A7D00000000000000114
+t1335928784
+s276
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m
+c000000004FA1E7110000000000001B7E
+t1336010513
+s7038
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch
+c000000004FA0954000000000000000B1
+t1335924032
+s177
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/en.lproj/InfoPlist.strings
+c000000004FA07D0A000000000000002D
+t1335917834
+s45
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c
+c000000004FA0954000000000000020AD
+t1335924032
+s8365
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/schema.strings
+c000000004FA097150000000000000097
+t1335924501
+s151
+
+N/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/schema.xml
+c000000004FA0963D0000000000000442
+t1335924285
+s1090
+
+NLightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist
+c000000004FA0946B00000000000008F3
+t1335923819
+s2291
+
+CBuild AST from /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m
+r0
+
+CBuild AST from /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m
+r0
+
+CBuild AST from /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m
+r0
+
+CBuild AST from /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies63d3b2d26053b541^4017c5d26053b541^---0#1#0#--18"Check dependencies36"CC21576D-FF82-4B0E-A68C-2D44D6B7F3B7-
+
+CCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357785810.893007
+e357785812.166251
+r1
+xCompileC
+xBuild/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o
+x/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.me8bee4d26053b541^0e1430d46053b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m0000000000000000^3063"CompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o LightroomSpotlightImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts -include /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.d --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/GetMetadataForFile.m -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/GetMetadataForFile.o36"3CFA5BAA-2952-44F9-9DBA-36B7DFCF43D6-
+
+CCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357785812.167535
+e357785813.637529
+r1
+xCompileC
+xBuild/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o
+x/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m814330d46053b541^3a41a3d56053b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m0000000000000000^3051"CompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o LightroomSpotlightImporter/LSICallbackState.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts -include /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.d --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSICallbackState.m -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSICallbackState.o36"BBB1F994-2267-478C-8F70-9DE36C15B200-
+
+CCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357785811.379376
+e357785813.197455
+r1
+xCompileC
+xBuild/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o
+x/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m473c61d36053b541^539532d56053b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m0000000000000000^3021"CompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o LightroomSpotlightImporter/LSIImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts -include /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.d --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LSIImporter.m -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LSIImporter.o36"47E82F47-36C8-4C2A-816B-9985C5135690-
+
+CCompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s357785810.887487
+e357785811.378149
+r1
+xCompileC
+xBuild/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o
+x/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c1e53e3d26053b541^740b61d36053b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c0000000000000000^2644"CompileC Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o LightroomSpotlightImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts -include /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/main.c -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/main.o36"490FC6D0-6DAB-4D47-8713-2EE1640E055E-
+
+CCopyStringsFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings LightroomSpotlightImporter/en.lproj/InfoPlist.strings
+s357785813.733495
+e357785813.777432
+r1
+xCopyStringsFile
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings
+xLightroomSpotlightImporter/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy LightroomSpotlightImporter/en.lproj/InfoPlist.strings62d6bbd56053b541^a609c7d56053b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/en.lproj/InfoPlist.strings0000000000000000^510"CopyStringsFile Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings LightroomSpotlightImporter/en.lproj/InfoPlist.strings    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/en.lproj -- LightroomSpotlightImporter/en.lproj/InfoPlist.strings36"5685010E-1828-44CE-9114-E8250D19C52F-
+
+CCopyStringsFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.strings LightroomSpotlightImporter/schema.strings
+s357785813.777167
+e357785813.791235
+r1
+xCopyStringsFile
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.strings
+xLightroomSpotlightImporter/schema.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy LightroomSpotlightImporter/schema.strings2504c7d56053b541^e28fcad56053b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/schema.strings0000000000000000^465"CopyStringsFile Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.strings LightroomSpotlightImporter/schema.strings    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources -- LightroomSpotlightImporter/schema.strings36"20D2F314-EB22-41C6-8EF1-7CD2FA49A4E9-
+
+CCpResource LightroomSpotlightImporter/schema.xml Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml
+s357785813.733908
+e357785813.775910
+r1
+xCpResource
+xLightroomSpotlightImporter/schema.xml
+xBuild/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml20edbbd56053b541^64acc6d56053b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml000000000080d041^619"CpResource LightroomSpotlightImporter/schema.xml Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources/schema.xml    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/schema.xml /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Resources36"C8DE60CB-35A3-4FB5-8519-50B4928CC92B-
+
+CLd /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter normal x86_64
+s357785813.645591
+e357785813.724671
+r1
+xLd
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Link /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImportercd5ba5d56053b541^5e84b9d56053b541^---0#0#0#--1231"Ld Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter normal x86_64    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts -filelist /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LightroomSpotlightImporter.LinkFileList -mmacosx-version-min=10.7 -fobjc-arc -framework OmniSQLite -framework OmniFoundation -framework OmniBase -framework CoreServices -framework CoreFoundation -framework CoreData -framework Foundation -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter36"5A15AAC4-795F-4510-96CB-05F573A30BFF-
+
+CPBXCp ../../../Shared/bittondb/InstalledProducts/OmniBase.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework
+s357785813.800021
+e357785813.852308
+r1
+xPBXCp
+x../../../Shared/bittondb/InstalledProducts/OmniBase.framework
+xBuild/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.frameworkb1deccd56053b541^153bdad56053b541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework000000000080d041^672"PBXCp ../../../Shared/bittondb/InstalledProducts/OmniBase.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniBase.framework    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniBase.framework /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks36"A4D2E15B-768A-4350-929B-77077A903B39-
+
+CPBXCp ../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework
+s357785813.822582
+e357785814.514951
+r1
+xPBXCp
+x../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework
+xBuild/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.frameworkb5a5d2d56053b541^45d583d66053b541^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework000000000080d041^690"PBXCp ../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniFoundation.framework    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks36"B5BD2D36-F92F-431A-AC90-9A77F6F03178-
+
+CPBXCp ../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework
+s357785813.801563
+e357785813.821329
+r1
+xPBXCp
+x../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework
+xBuild/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework1041cdd56053b541^234bd2d56053b541^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework000000000080d041^678"PBXCp ../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks/OmniSQLite.framework    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Frameworks36"98FB51DB-B166-43B0-9C08-B8F7F6958728-
+
+CPBXCp Build/Products/Debug/LightroomSpotlightImporter.mdimporter /Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter
+s357785815.075346
+e357785815.967828
+r1
+xPBXCp
+xBuild/Products/Debug/LightroomSpotlightImporter.mdimporter
+x/Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy /Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter535a13d76053b541^2ac4f7d76053b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter/0000000000000000^548"PBXCp Build/Products/Debug/LightroomSpotlightImporter.mdimporter /Users/bittondb/Library/Spotlight/LightroomSpotlightImporter.mdimporter    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter /Users/bittondb/Library/Spotlight36"1FE01AFB-54A0-4E35-B4C5-8E8A30A35EC3-
+
+CPhaseScriptExecution "Run Script" /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh
+s357785814.543184
+e357785815.050293
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'9ab68fd66053b541^f0df0cd76053b541^---0#0#0#--21085"PhaseScriptExecution "Run Script" Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER bittondb    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Products    setenv BUILD_ROOT /Users/bittondb/src/LightroomSpotlightImporter/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug    setenv CACHE_ROOT /var/folders/nk/n29krwvj22s9xfk72mk0tt7h0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/nk/n29krwvj22s9xfk72mk0tt7h0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLASS_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/nk/n29krwvj22s9xfk72mk0tt7h0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug    setenv CONFIGURATION_TEMP_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug    setenv CONTENTS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/LightroomSpotlightImporter.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME LightroomSpotlightImporter.mdimporter.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/MacOS    setenv EXECUTABLE_NAME LightroomSpotlightImporter    setenv EXECUTABLE_PATH LightroomSpotlightImporter.mdimporter/Contents/MacOS/LightroomSpotlightImporter    setenv FILE_LIST /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug\"  \"/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME LightroomSpotlightImporter.mdimporter    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_64_TO_32_BIT_CONVERSION YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH LightroomSpotlightImporter.mdimporter/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR "/tmp/LightroomSpotlightImporter.dst@executable_path/../Contents/Library/Spotlight"    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER bittondb    setenv INSTALL_PATH "@executable_path/../Contents/Library/Spotlight"    setenv INSTALL_ROOT /tmp/LightroomSpotlightImporter.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter-LinkMap-normal-x86_64.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug\" "    setenv LIBRARY_STYLE BUNDLE    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal/x86_64/LightroomSpotlightImporter.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.7    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11D50b    setenv MAC_OS_X_VERSION_ACTUAL 1073    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0703    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Objects-normal    setenv OBJROOT /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH LightroomSpotlightImporter.mdimporter/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c objective-c"    setenv PKGINFO_FILE_PATH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/PkgInfo    setenv PKGINFO_PATH LightroomSpotlightImporter.mdimporter/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4E2002    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/PrivateHeaders    setenv PRODUCT_NAME LightroomSpotlightImporter    setenv PRODUCT_SETTINGS_PATH /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT LightroomSpotlightImporter    setenv PROJECT_DERIVED_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/DerivedSources    setenv PROJECT_DIR /Users/bittondb/src/LightroomSpotlightImporter    setenv PROJECT_FILE_PATH /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter.xcodeproj    setenv PROJECT_NAME LightroomSpotlightImporter    setenv PROJECT_TEMP_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build    setenv PUBLIC_HEADERS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk    setenv SDK_NAME macosx10.7    setenv SDK_PRODUCT_BUILD_VERSION 11D50a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/bittondb/src/LightroomSpotlightImporter    setenv SPARROW_SRC "~/Dropbox/src/Sparrow-Framework/sparrow/src/"    setenv SRCROOT /Users/bittondb/src/LightroomSpotlightImporter    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/bittondb/src/LightroomSpotlightImporter/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME LightroomSpotlightImporter    setenv TARGET_BUILD_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug    setenv TARGET_NAME LightroomSpotlightImporter    setenv TARGET_TEMP_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build    setenv TEMP_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build    setenv TEMP_FILES_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build    setenv TEMP_FILE_DIR /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build    setenv TEMP_ROOT /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH LightroomSpotlightImporter.mdimporter/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER bittondb    setenv USER_APPS_DIR /Users/bittondb/Applications    setenv USER_LIBRARY_DIR /Users/bittondb/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH LightroomSpotlightImporter.mdimporter/Contents/version.plist    setenv VERSION_INFO_BUILDER bittondb    setenv VERSION_INFO_FILE LightroomSpotlightImporter_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:LightroomSpotlightImporter  PROJECT:LightroomSpotlightImporter-\""    setenv WRAPPER_EXTENSION mdimporter    setenv WRAPPER_NAME LightroomSpotlightImporter.mdimporter    setenv WRAPPER_SUFFIX .mdimporter    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/Script-F7979863155220FD00CB9679.sh36"C937EA52-1F6B-455C-9A97-0D12A621B30F-
+
+CProcessInfoPlistFile /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist
+s357785810.776734
+e357785810.783373
+r1
+xProcessInfoPlistFile
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist
+xLightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist3ee7c6d26053b541^a394c8d26053b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist0000000000000000^480"ProcessInfoPlistFile Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist    cd /Users/bittondb/src/LightroomSpotlightImporter    builtin-infoPlistUtility LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist -expandbuildsettings -platform macosx -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter/Contents/Info.plist36"5CBC649E-A20D-42C3-8CA9-B3362E1550F2-
+
+CProcessPCH /Users/bittondb/Library/Developer/Xcode/DerivedData/LightroomSpotlightImporter-evpfyeztgyefhjhlecpysxgrdfwj/Index/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-bvuzrthujddutefcaicpehjffiee_ast/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/bittondb/Library/Developer/Xcode/DerivedData/LightroomSpotlightImporter-evpfyeztgyefhjhlecpysxgrdfwj/Index/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-dzrxomdipwurecepbdnxsqyevjci_ast/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357785810.792876
+e357785810.886003
+r1
+xProcessPCH
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth
+xLightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Precompile LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch7311cbd26053b541^8dd1e2d26053b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch0000000000000000^2942"ProcessPCH Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.pth -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-euqeuriazkygerfaqfoghhmcjnrz/LightroomSpotlightImporter-Prefix.pch.d36"B000C56D-1ACE-430F-B7D6-EECB26B4D7B5-
+
+CProcessPCH /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s357785810.792326
+e357785810.881305
+r1
+xProcessPCH
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth
+xLightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Precompile LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch73f2cad26053b541^9ca4e1d26053b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch0000000000000000^2607"ProcessPCH Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bittondb/src/LightroomSpotlightImporter    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/LightroomSpotlightImporter.hmap -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/include -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources/x86_64 -I/Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/LightroomSpotlightImporter.build/Debug/LightroomSpotlightImporter.build/DerivedSources -F/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug -F/Users/bittondb/src/LightroomSpotlightImporter/../../../Shared/bittondb/InstalledProducts --serialize-diagnostics /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.dia -c /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch -o /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.pth -MMD -MT dependencies -MF /Users/bittondb/src/LightroomSpotlightImporter/Build/Intermediates/PrecompiledHeaders/LightroomSpotlightImporter-Prefix-fwaviivzlhivlvdgysgqrkaojxnz/LightroomSpotlightImporter-Prefix.pch.d36"3093E560-44F9-43A7-9722-2B101A16CF46-
+
+CTouch /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter
+s357785815.058954
+e357785815.066349
+r1
+xTouch
+x/Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporterd4290fd76053b541^9a0a11d76053b541^---0#0#0#--247"Touch Build/Products/Debug/LightroomSpotlightImporter.mdimporter    cd /Users/bittondb/src/LightroomSpotlightImporter    /usr/bin/touch -c /Users/bittondb/src/LightroomSpotlightImporter/Build/Products/Debug/LightroomSpotlightImporter.mdimporter36"53B586A9-D2A9-438F-AA39-613D75F32B4B-
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/English.lproj/DateProcessing.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zYwOrjXopPRJe//HQ6VEUNAQszA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/English.lproj/OmniFoundation.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K2DRlgDhJG+sG+bU4WIoOM9oYPc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/EnglishToISO.strings</key>
+		<data>
+		G43vUV7LVyaUbgQH5QjrbRstqh8=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		iqcj4klddyDtkrQNd3YjpEgb+Sk=
+		</data>
+		<key>Resources/Language.strings</key>
+		<data>
+		dvcRU8P18/E/Aa0SEU/GM1MwW1E=
+		</data>
+		<key>Resources/SFMT-LICENSE.txt</key>
+		<data>
+		dKqDdMXCjXt2dW1sCOkIq7jdnQU=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

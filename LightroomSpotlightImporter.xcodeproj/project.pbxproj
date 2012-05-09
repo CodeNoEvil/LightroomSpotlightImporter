@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F79798521551EA5D00CB9679 /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79798511551EA5D00CB9679 /* OmniFoundation.framework */; };
+		F79798541551EA8200CB9679 /* OmniSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79798531551EA8200CB9679 /* OmniSQLite.framework */; };
+		F79798551551EB1100CB9679 /* OmniSQLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79798531551EA8200CB9679 /* OmniSQLite.framework */; };
+		F79798561551EB1100CB9679 /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79798511551EA5D00CB9679 /* OmniFoundation.framework */; };
 		F7F06E0A1550B48A00365CB5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E091550B48A00365CB5 /* CoreServices.framework */; };
 		F7F06E0C1550B48A00365CB5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E0B1550B48A00365CB5 /* CoreFoundation.framework */; };
 		F7F06E0E1550B48A00365CB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E0D1550B48A00365CB5 /* CoreData.framework */; };
@@ -17,20 +21,18 @@
 		F7F06E1D1550B48A00365CB5 /* LSIImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F06E1C1550B48A00365CB5 /* LSIImporter.m */; };
 		F7F06E291550CE3E00365CB5 /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E281550CE3E00365CB5 /* schema.xml */; };
 		F7F06E2B1550CE4F00365CB5 /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E2A1550CE4F00365CB5 /* schema.strings */; };
-		F7F06E2D1550D18A00365CB5 /* LightroomSpotlightImporter.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7F06E061550B48A00365CB5 /* LightroomSpotlightImporter.mdimporter */; };
 		F7F06E361550DA7600365CB5 /* LSICallbackState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F06E351550DA7600365CB5 /* LSICallbackState.m */; };
 		F7F06E3C1550E77700365CB5 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
 		F7F06E3E1550E89B00365CB5 /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F7F06E2C1550D16E00365CB5 /* CopyFiles */ = {
+		F71E94761558ABB60014A1D8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "~/Library/Spotlight";
-			dstSubfolderSpec = 0;
+			dstPath = Scripts;
+			dstSubfolderSpec = 12;
 			files = (
-				F7F06E2D1550D18A00365CB5 /* LightroomSpotlightImporter.mdimporter in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,12 +43,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F7F06E3E1550E89B00365CB5 /* OmniBase.framework in CopyFiles */,
+				F79798551551EB1100CB9679 /* OmniSQLite.framework in CopyFiles */,
+				F79798561551EB1100CB9679 /* OmniFoundation.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F79798511551EA5D00CB9679 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework; sourceTree = "<group>"; };
+		F79798531551EA8200CB9679 /* OmniSQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniSQLite.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework; sourceTree = "<group>"; };
 		F7F06E061550B48A00365CB5 /* LightroomSpotlightImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightroomSpotlightImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F06E091550B48A00365CB5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F7F06E0B1550B48A00365CB5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79798541551EA8200CB9679 /* OmniSQLite.framework in Frameworks */,
+				F79798521551EA5D00CB9679 /* OmniFoundation.framework in Frameworks */,
 				F7F06E3C1550E77700365CB5 /* OmniBase.framework in Frameworks */,
 				F7F06E0A1550B48A00365CB5 /* CoreServices.framework in Frameworks */,
 				F7F06E0C1550B48A00365CB5 /* CoreFoundation.framework in Frameworks */,
@@ -87,8 +95,10 @@
 		F7F06DFB1550B48900365CB5 = {
 			isa = PBXGroup;
 			children = (
+				F79798531551EA8200CB9679 /* OmniSQLite.framework */,
+				F79798511551EA5D00CB9679 /* OmniFoundation.framework */,
 				F7F06E3B1550E77700365CB5 /* OmniBase.framework */,
-				F7F06E111550B48A00365CB5 /* LightroomImporter */,
+				F7F06E111550B48A00365CB5 /* LightroomSpotlightImporter */,
 				F7F06E081550B48A00365CB5 /* Frameworks */,
 				F7F06E071550B48A00365CB5 /* Products */,
 			);
@@ -113,7 +123,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7F06E111550B48A00365CB5 /* LightroomImporter */ = {
+		F7F06E111550B48A00365CB5 /* LightroomSpotlightImporter */ = {
 			isa = PBXGroup;
 			children = (
 				F7F06E191550B48A00365CB5 /* GetMetadataForFile.m */,
@@ -124,8 +134,9 @@
 				F7F06E341550DA7600365CB5 /* LSICallbackState.h */,
 				F7F06E351550DA7600365CB5 /* LSICallbackState.m */,
 			);
-			path = LightroomImporter;
-			sourceTree = "<group>";
+			name = LightroomSpotlightImporter;
+			path = /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter;
+			sourceTree = "<absolute>";
 		};
 		F7F06E121550B48A00365CB5 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -152,15 +163,15 @@
 				F7F06E031550B48A00365CB5 /* Frameworks */,
 				F7F06E041550B48A00365CB5 /* Resources */,
 				F7F06E3D1550E7F200365CB5 /* CopyFiles */,
-				F7F06E401550F93A00365CB5 /* ShellScript */,
-				F7F06E2C1550D16E00365CB5 /* CopyFiles */,
+				F71E94761558ABB60014A1D8 /* CopyFiles */,
+				F7979863155220FD00CB9679 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LightroomSpotlightImporter;
-			productName = LightroomImporter;
+			productName = LightroomSpotlightImporter;
 			productReference = F7F06E061550B48A00365CB5 /* LightroomSpotlightImporter.mdimporter */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -170,8 +181,9 @@
 		F7F06DFD1550B48900365CB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LSI;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Supreme Security Systems, Inc.";
+				ORGANIZATIONNAME = "Code No Evil LLC";
 			};
 			buildConfigurationList = F7F06E001550B48900365CB5 /* Build configuration list for PBXProject "LightroomSpotlightImporter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -204,7 +216,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F7F06E401550F93A00365CB5 /* ShellScript */ = {
+		F7979863155220FD00CB9679 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,7 +227,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "install_name_tool -change \\\n\"@executable_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n";
+			shellScript = "install_name_tool \\\n-change \\\n\"@executable_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n-change \\\n\"@executable_path/../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"@loader_path/../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n-change \\\n\"@executable_path/../Frameworks/OmniSQLite.framework/Versions/A/OmniSQLite\" \\\n\"@loader_path/../Frameworks/OmniSQLite.framework/Versions/A/OmniSQLite\" \\\n\\\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n\ninstall_name_tool \\\n-change \\\n\"@rpath/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../../../../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n-change \\\n\"@rpath/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"@loader_path/../../../../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/OmniSQLite.framework/Versions/A/OmniSQLite\"\n\ninstall_name_tool \\\n-change \\\n\"@rpath/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../../../../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/OmniFoundation.framework/Versions/A/OmniFoundation\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -301,13 +313,12 @@
 					"\"$(SRCROOT)/../../../Shared/bittondb/InstalledProducts\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LightroomImporter/LightroomSpotlightImporter-Prefix.pch";
-				INFOPLIST_FILE = "LightroomImporter/LightroomSpotlightImporter-Info.plist";
-				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				GCC_PREFIX_HEADER = "LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch";
+				INFOPLIST_FILE = "LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_STYLE = BUNDLE;
 				MACH_O_TYPE = mh_bundle;
 				PRODUCT_NAME = LightroomSpotlightImporter;
-				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = mdimporter;
 			};
 			name = Debug;
@@ -321,13 +332,12 @@
 					"\"$(SRCROOT)/../../../Shared/bittondb/InstalledProducts\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LightroomImporter/LightroomSpotlightImporter-Prefix.pch";
-				INFOPLIST_FILE = "LightroomImporter/LightroomSpotlightImporter-Info.plist";
-				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				GCC_PREFIX_HEADER = "LightroomSpotlightImporter/LightroomSpotlightImporter-Prefix.pch";
+				INFOPLIST_FILE = "LightroomSpotlightImporter/LightroomSpotlightImporter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_STYLE = BUNDLE;
 				MACH_O_TYPE = mh_bundle;
 				PRODUCT_NAME = LightroomSpotlightImporter;
-				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = mdimporter;
 			};
 			name = Release;
@@ -351,6 +361,7 @@
 				F7F06E241550B48A00365CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
