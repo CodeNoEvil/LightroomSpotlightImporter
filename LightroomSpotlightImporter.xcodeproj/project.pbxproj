@@ -21,7 +21,6 @@
 		F7F06E1D1550B48A00365CB5 /* LSIImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F06E1C1550B48A00365CB5 /* LSIImporter.m */; };
 		F7F06E291550CE3E00365CB5 /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E281550CE3E00365CB5 /* schema.xml */; };
 		F7F06E2B1550CE4F00365CB5 /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E2A1550CE4F00365CB5 /* schema.strings */; };
-		F7F06E361550DA7600365CB5 /* LSICallbackState.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F06E351550DA7600365CB5 /* LSICallbackState.m */; };
 		F7F06E3C1550E77700365CB5 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
 		F7F06E3E1550E89B00365CB5 /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
 /* End PBXBuildFile section */
@@ -69,8 +68,6 @@
 		F7F06E251550BACA00365CB5 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = ../../LightroomCatalogManager/LightroomCatalogManager/Prefix.pch; sourceTree = "<group>"; };
 		F7F06E281550CE3E00365CB5 /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
 		F7F06E2A1550CE4F00365CB5 /* schema.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = schema.strings; sourceTree = "<group>"; };
-		F7F06E341550DA7600365CB5 /* LSICallbackState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSICallbackState.h; sourceTree = "<group>"; };
-		F7F06E351550DA7600365CB5 /* LSICallbackState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSICallbackState.m; sourceTree = "<group>"; };
 		F7F06E3B1550E77700365CB5 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniBase.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -131,8 +128,6 @@
 				F7F06E1C1550B48A00365CB5 /* LSIImporter.m */,
 				F7F06E1E1550B48A00365CB5 /* Importer Read Me.txt */,
 				F7F06E121550B48A00365CB5 /* Supporting Files */,
-				F7F06E341550DA7600365CB5 /* LSICallbackState.h */,
-				F7F06E351550DA7600365CB5 /* LSICallbackState.m */,
 			);
 			name = LightroomSpotlightImporter;
 			path = /Users/bittondb/src/LightroomSpotlightImporter/LightroomSpotlightImporter;
@@ -239,7 +234,6 @@
 				F7F06E181550B48A00365CB5 /* main.c in Sources */,
 				F7F06E1A1550B48A00365CB5 /* GetMetadataForFile.m in Sources */,
 				F7F06E1D1550B48A00365CB5 /* LSIImporter.m in Sources */,
-				F7F06E361550DA7600365CB5 /* LSICallbackState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
