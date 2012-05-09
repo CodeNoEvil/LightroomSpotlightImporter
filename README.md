@@ -1,4 +1,4 @@
-# LightroomSpotlightImporter
+# Lightroom Spotlight Importer
 
 A Mac Spotlight Importer for Adobe Lightroom Catalogs. Allows users to search for filenames inside catalogs from within the Spotlight window.
 
@@ -13,9 +13,11 @@ The Adobe Lightroom `.lrcat` catalog files are [sqlite](http://tro.pe/K0QToL) da
 Apple provides a mechanism for developers to create custom importers for lesser known or custom file types. The documentation from Apple can be found [here][1].
 
 
+## FMDB ##
 
+LSI uses the [FMDB][2] Sqlite wrapper for Objective-C.
 
 
 [1]: http://tro.pe/K0RtTG "Spotlight Importer Programming Guide"
-
+[2]: http://tro.pe/K0U5B1 "FMDB"
 
