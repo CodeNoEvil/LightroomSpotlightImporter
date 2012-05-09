@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Code No Evil LLC All rights reserved.
 //
 
-#import <OmniSQLite/OmniSQLite.h>
+#import "FMDatabase.h"
+#import "FMResultSet.h"
 #import "LSIImporter.h"
-#import "LSICallbackState.h"
 
 @interface LSIImporter ()
 
@@ -33,8 +33,18 @@ int executeSQLCallback(void *context, int argc, char **argv, char **azColName) {
 
     NSMutableArray *files = [NSMutableArray array];
     
-    OSLDatabaseController *databaseController = [[OSLDatabaseController alloc] initWithDatabasePath:filePath error:error];
-    success = [databaseController executeSQL:@"SELECT originalFilename FROM AgLibraryFile" withCallback:executeSQLCallback context:(__bridge void*)files error:error];
+//    OSLDatabaseController *databaseController = [[OSLDatabaseController alloc] initWithDatabasePath:filePath error:error];
+//    success = [databaseController executeSQL:@"SELECT originalFilename FROM AgLibraryFile" withCallback:executeSQLCallback context:(__bridge void*)files error:error];
+    
+    FMDatabase *database = [FMDatabase databaseWithPath:filePath];
+    [database open];
+    FMResultSet *resultSet = [database executeQuery:@"SELECT originalFilename FROM AgLibraryFile"];
+    success = (resultSet != nil);
+    while ([resultSet next]) {
+        [files addObject:[resultSet stringForColumn:@"originalFilename"]];
+    }
+    [database close];
+    
     DLog(@"Query Success: %u File Count: %u", success, [files count]);
     
     [spotlightData setObject:[NSArray arrayWithArray:files] forKey:@"com_adobe_lightroom_library_files"];

@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F79798521551EA5D00CB9679 /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79798511551EA5D00CB9679 /* OmniFoundation.framework */; };
-		F79798541551EA8200CB9679 /* OmniSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79798531551EA8200CB9679 /* OmniSQLite.framework */; };
-		F79798551551EB1100CB9679 /* OmniSQLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79798531551EA8200CB9679 /* OmniSQLite.framework */; };
-		F79798561551EB1100CB9679 /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79798511551EA5D00CB9679 /* OmniFoundation.framework */; };
+		F71E94C5155A10CC0014A1D8 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F71E94C4155A107B0014A1D8 /* libFMDB.a */; };
+		F7429EDE155A1FA900AAFE2B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7429EDD155A1FA900AAFE2B /* libsqlite3.dylib */; };
 		F7F06E0A1550B48A00365CB5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E091550B48A00365CB5 /* CoreServices.framework */; };
 		F7F06E0C1550B48A00365CB5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E0B1550B48A00365CB5 /* CoreFoundation.framework */; };
 		F7F06E0E1550B48A00365CB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E0D1550B48A00365CB5 /* CoreData.framework */; };
@@ -21,37 +19,35 @@
 		F7F06E1D1550B48A00365CB5 /* LSIImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F06E1C1550B48A00365CB5 /* LSIImporter.m */; };
 		F7F06E291550CE3E00365CB5 /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E281550CE3E00365CB5 /* schema.xml */; };
 		F7F06E2B1550CE4F00365CB5 /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F06E2A1550CE4F00365CB5 /* schema.strings */; };
-		F7F06E3C1550E77700365CB5 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
-		F7F06E3E1550E89B00365CB5 /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7F06E3B1550E77700365CB5 /* OmniBase.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F71E94761558ABB60014A1D8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Scripts;
-			dstSubfolderSpec = 12;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		F71E94C1155A107B0014A1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = fmdb;
 		};
-		F7F06E3D1550E7F200365CB5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F7F06E3E1550E89B00365CB5 /* OmniBase.framework in CopyFiles */,
-				F79798551551EB1100CB9679 /* OmniSQLite.framework in CopyFiles */,
-				F79798561551EB1100CB9679 /* OmniFoundation.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+		F71E94C3155A107B0014A1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE4290EF12B42F870088BD94;
+			remoteInfo = FMDB;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		F71E94DE155A14C70014A1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4290EE12B42F870088BD94;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F79798511551EA5D00CB9679 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniFoundation.framework; sourceTree = "<group>"; };
-		F79798531551EA8200CB9679 /* OmniSQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniSQLite.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniSQLite.framework; sourceTree = "<group>"; };
+		F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
+		F7429EDD155A1FA900AAFE2B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F7F06E061550B48A00365CB5 /* LightroomSpotlightImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightroomSpotlightImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F06E091550B48A00365CB5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F7F06E0B1550B48A00365CB5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -68,7 +64,6 @@
 		F7F06E251550BACA00365CB5 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = ../../LightroomCatalogManager/LightroomCatalogManager/Prefix.pch; sourceTree = "<group>"; };
 		F7F06E281550CE3E00365CB5 /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
 		F7F06E2A1550CE4F00365CB5 /* schema.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = schema.strings; sourceTree = "<group>"; };
-		F7F06E3B1550E77700365CB5 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = ../../../Shared/bittondb/InstalledProducts/OmniBase.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F79798541551EA8200CB9679 /* OmniSQLite.framework in Frameworks */,
-				F79798521551EA5D00CB9679 /* OmniFoundation.framework in Frameworks */,
-				F7F06E3C1550E77700365CB5 /* OmniBase.framework in Frameworks */,
+				F7429EDE155A1FA900AAFE2B /* libsqlite3.dylib in Frameworks */,
+				F71E94C5155A10CC0014A1D8 /* libFMDB.a in Frameworks */,
 				F7F06E0A1550B48A00365CB5 /* CoreServices.framework in Frameworks */,
 				F7F06E0C1550B48A00365CB5 /* CoreFoundation.framework in Frameworks */,
 				F7F06E0E1550B48A00365CB5 /* CoreData.framework in Frameworks */,
@@ -89,12 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71E94B9155A107B0014A1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71E94C2155A107B0014A1D8 /* fmdb */,
+				F71E94C4155A107B0014A1D8 /* libFMDB.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F7F06DFB1550B48900365CB5 = {
 			isa = PBXGroup;
 			children = (
-				F79798531551EA8200CB9679 /* OmniSQLite.framework */,
-				F79798511551EA5D00CB9679 /* OmniFoundation.framework */,
-				F7F06E3B1550E77700365CB5 /* OmniBase.framework */,
+				F7429EDD155A1FA900AAFE2B /* libsqlite3.dylib */,
+				F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */,
 				F7F06E111550B48A00365CB5 /* LightroomSpotlightImporter */,
 				F7F06E081550B48A00365CB5 /* Frameworks */,
 				F7F06E071550B48A00365CB5 /* Products */,
@@ -157,13 +159,12 @@
 				F7F06E021550B48A00365CB5 /* Sources */,
 				F7F06E031550B48A00365CB5 /* Frameworks */,
 				F7F06E041550B48A00365CB5 /* Resources */,
-				F7F06E3D1550E7F200365CB5 /* CopyFiles */,
-				F71E94761558ABB60014A1D8 /* CopyFiles */,
 				F7979863155220FD00CB9679 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F71E94DF155A14C70014A1D8 /* PBXTargetDependency */,
 			);
 			name = LightroomSpotlightImporter;
 			productName = LightroomSpotlightImporter;
@@ -190,12 +191,35 @@
 			mainGroup = F7F06DFB1550B48900365CB5;
 			productRefGroup = F7F06E071550B48A00365CB5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F71E94B9155A107B0014A1D8 /* Products */;
+					ProjectRef = F71E94B8155A107B0014A1D8 /* fmdb.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F7F06E051550B48A00365CB5 /* LightroomSpotlightImporter */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F71E94C2155A107B0014A1D8 /* fmdb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fmdb;
+			remoteRef = F71E94C1155A107B0014A1D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F71E94C4155A107B0014A1D8 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = F71E94C3155A107B0014A1D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F7F06E041550B48A00365CB5 /* Resources */ = {
@@ -213,14 +237,14 @@
 /* Begin PBXShellScriptBuildPhase section */
 		F7979863155220FD00CB9679 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "install_name_tool \\\n-change \\\n\"@executable_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n-change \\\n\"@executable_path/../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"@loader_path/../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n-change \\\n\"@executable_path/../Frameworks/OmniSQLite.framework/Versions/A/OmniSQLite\" \\\n\"@loader_path/../Frameworks/OmniSQLite.framework/Versions/A/OmniSQLite\" \\\n\\\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n\ninstall_name_tool \\\n-change \\\n\"@rpath/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../../../../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n-change \\\n\"@rpath/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"@loader_path/../../../../Frameworks/OmniFoundation.framework/Versions/A/OmniFoundation\" \\\n\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/OmniSQLite.framework/Versions/A/OmniSQLite\"\n\ninstall_name_tool \\\n-change \\\n\"@rpath/OmniBase.framework/Versions/A/OmniBase\" \\\n\"@loader_path/../../../../Frameworks/OmniBase.framework/Versions/A/OmniBase\" \\\n\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH/OmniFoundation.framework/Versions/A/OmniFoundation\"";
 		};
@@ -238,6 +262,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71E94DF155A14C70014A1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			targetProxy = F71E94DE155A14C70014A1D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F7F06E141550B48A00365CB5 /* InfoPlist.strings */ = {
@@ -312,6 +344,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_STYLE = BUNDLE;
 				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-v",
+				);
 				PRODUCT_NAME = LightroomSpotlightImporter;
 				WRAPPER_EXTENSION = mdimporter;
 			};
@@ -331,6 +368,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_STYLE = BUNDLE;
 				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-v",
+				);
 				PRODUCT_NAME = LightroomSpotlightImporter;
 				WRAPPER_EXTENSION = mdimporter;
 			};
